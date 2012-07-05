@@ -23,11 +23,13 @@ it.
 Usage
 -----
 
-   textilize("I _love_ ROR(Ruby on Rails)!")
-   # => "<p>I <em>love</em> <acronym title="Ruby on Rails">ROR</acronym>!</p>"
+### The `textilize` & `textilize_without_paragraph` helper methods
 
-   textilize_without_paragraph("I _love_ ROR(Ruby on Rails)!")
-   # => "I <em>love</em> <acronym title="Ruby on Rails">ROR</acronym>!"
+    textilize("I _love_ ROR(Ruby on Rails)!")
+    # => "<p>I <em>love</em> <acronym title="Ruby on Rails">ROR</acronym>!</p>"
+
+    textilize_without_paragraph("I _love_ ROR(Ruby on Rails)!")
+    # => "I <em>love</em> <acronym title="Ruby on Rails">ROR</acronym>!"
 
 
 Test
