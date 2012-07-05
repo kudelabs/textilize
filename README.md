@@ -23,8 +23,14 @@ it.
 Usage
 -----
 
+#   textilize("I _love_ ROR(Ruby on Rails)!")
+#   # => "<p>I <em>love</em> <acronym title="Ruby on Rails">ROR</acronym>!</p>"
 
-Installation
+#   textilize_without_paragraph("I _love_ ROR(Ruby on Rails)!")
+#   # => "I <em>love</em> <acronym title="Ruby on Rails">ROR</acronym>!"
+
+
+Test
 ------------
 
 We will add some tests back later.
