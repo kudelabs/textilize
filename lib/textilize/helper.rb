@@ -1,4 +1,5 @@
 #mainly extract from Rails2.
+#related link: https://github.com/rails/rails/blob/2-1-stable/actionpack/lib/action_view/helpers/text_helper.rb
 module Textilize
   module Helper
     require 'redcloth'

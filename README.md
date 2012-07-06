@@ -37,6 +37,15 @@ Test
 
 We will add some tests back later.
 
+
+Credits
+------------
+
+whytheluckystiff: RedCloth library
+
+David Heinemeier Hansson: the text helper.
+
+
 Copyright & Licensing
 ---------------------
 
