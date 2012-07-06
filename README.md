@@ -35,7 +35,7 @@ Usage
 Test
 ------------
 
-We will add some tests back later.
+rake test
 
 
 Credits
